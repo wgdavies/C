@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?><pool name="pool name"><schedulingMode>fair</schedulingMode><minMaps>780</minMaps><minReduces>540</minReduces><maxRunningJobs>60</maxRunningJobs><minSharePreemptionTimeout>300</minSharePreemptionTimeout><weight>1.0</weight></pool><user
+name="user name"><maxRunningJobs>20</maxRunningJobs></user>

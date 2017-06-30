@@ -1,0 +1,93 @@
+(0x00000000) set mcast listen ok
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28977 pid=28977 (cmd: postmaster)
+(0x00000080) sid change: tid=28977 pid=28977
+(0x80000000) exit: tid=28977 pid=28977 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28978 pid=28978 (cmd: postmaster)
+(0x00000080) sid change: tid=28978 pid=28978
+(0x80000000) exit: tid=28978 pid=28978 exit_code=0
+(0x00000004) uid change: tid=27102 pid=27102 from 0 to 0
+(0x00000040) gid change: tid=27102 pid=27102 from 0 to 0
+(0x00000001) fork: parent tid=1 pid=1 -> child tid=28979 pid=2295 (cmd: automount)
+(0x00000001) fork: parent tid=1 pid=1 -> child tid=28980 pid=2295 (cmd: automount)
+(0x80000000) exit: tid=28979 pid=2295 exit_code=0
+(0x80000000) exit: tid=28980 pid=2295 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28981 pid=28981 (cmd: postmaster)
+(0x00000080) sid change: tid=28981 pid=28981
+(0x80000000) exit: tid=28981 pid=28981 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28982 pid=28982 (cmd: postmaster)
+(0x00000080) sid change: tid=28982 pid=28982
+(0x80000000) exit: tid=28982 pid=28982 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28983 pid=28983 (cmd: postmaster)
+(0x00000080) sid change: tid=28983 pid=28983
+(0x80000000) exit: tid=28983 pid=28983 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28984 pid=28984 (cmd: postmaster)
+(0x00000080) sid change: tid=28984 pid=28984
+(0x80000000) exit: tid=28984 pid=28984 exit_code=0
+(0x00000001) fork: parent tid=2712 pid=2712 -> child tid=28985 pid=28985 (cmd: crond)
+(0x80000000) exit: tid=28985 pid=28985 exit_code=256
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28986 pid=28986 (cmd: postmaster)
+(0x00000080) sid change: tid=28986 pid=28986
+(0x80000000) exit: tid=28986 pid=28986 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28987 pid=28987 (cmd: postmaster)
+(0x00000080) sid change: tid=28987 pid=28987
+(0x80000000) exit: tid=28987 pid=28987 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28988 pid=28988 (cmd: postmaster)
+(0x00000080) sid change: tid=28988 pid=28988
+(0x80000000) exit: tid=28988 pid=28988 exit_code=0
+(0x00000001) fork: parent tid=1 pid=1 -> child tid=28989 pid=2295 (cmd: automount)
+(0x00000001) fork: parent tid=1 pid=1 -> child tid=28990 pid=2295 (cmd: automount)
+(0x80000000) exit: tid=28989 pid=2295 exit_code=0
+(0x80000000) exit: tid=28990 pid=2295 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28991 pid=28991 (cmd: postmaster)
+(0x00000080) sid change: tid=28991 pid=28991
+(0x80000000) exit: tid=28991 pid=28991 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28992 pid=28992 (cmd: postmaster)
+(0x00000080) sid change: tid=28992 pid=28992
+(0x80000000) exit: tid=28992 pid=28992 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28993 pid=28993 (cmd: postmaster)
+(0x00000080) sid change: tid=28993 pid=28993
+(0x80000000) exit: tid=28993 pid=28993 exit_code=0
+(0x00000001) fork: parent tid=27317 pid=27317 -> child tid=28994 pid=28994 (cmd: bash)
+(0x00000002) exec: tid=28994 pid=28994
+(0x80000000) exit: tid=28994 pid=28994 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28995 pid=28995 (cmd: postmaster)
+(0x00000080) sid change: tid=28995 pid=28995
+(0x80000000) exit: tid=28995 pid=28995 exit_code=0
+(0x00000001) fork: parent tid=27317 pid=27317 -> child tid=28996 pid=28996 (cmd: bash)
+(0x00000002) exec: tid=28996 pid=28996
+(0x80000000) exit: tid=28996 pid=28996 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28997 pid=28997 (cmd: postmaster)
+(0x00000080) sid change: tid=28997 pid=28997
+(0x80000000) exit: tid=28997 pid=28997 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=28998 pid=28998 (cmd: postmaster)
+(0x00000080) sid change: tid=28998 pid=28998
+(0x80000000) exit: tid=28998 pid=28998 exit_code=0
+(0x00000001) fork: parent tid=1 pid=1 -> child tid=28999 pid=2295 (cmd: automount)
+(0x00000001) fork: parent tid=1 pid=1 -> child tid=29000 pid=2295 (cmd: automount)
+(0x80000000) exit: tid=28999 pid=2295 exit_code=0
+(0x80000000) exit: tid=29000 pid=2295 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=29001 pid=29001 (cmd: postmaster)
+(0x00000080) sid change: tid=29001 pid=29001
+(0x80000000) exit: tid=29001 pid=29001 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=29002 pid=29002 (cmd: postmaster)
+(0x00000080) sid change: tid=29002 pid=29002
+(0x80000000) exit: tid=29002 pid=29002 exit_code=0
+(0x00000001) fork: parent tid=27317 pid=27317 -> child tid=29003 pid=29003 (cmd: bash)
+(0x00000002) exec: tid=29003 pid=29003
+(0x80000000) exit: tid=29003 pid=29003 exit_code=0
+(0x00000001) fork: parent tid=27317 pid=27317 -> child tid=29004 pid=29004 (cmd: bash)
+(0x00000002) exec: tid=29004 pid=29004
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=29005 pid=29005 (cmd: postmaster)
+(0x00000080) sid change: tid=29005 pid=29005
+(0x80000000) exit: tid=29005 pid=29005 exit_code=0
+(0x00000001) fork: parent tid=29004 pid=29004 -> child tid=29006 pid=29006 (cmd: vim)
+(0x00000002) exec: tid=29006 pid=29006
+(0x00000002) exec: tid=29006 pid=29006
+(0x80000000) exit: tid=29006 pid=29006 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=29007 pid=29007 (cmd: postmaster)
+(0x00000080) sid change: tid=29007 pid=29007
+(0x80000000) exit: tid=29007 pid=29007 exit_code=0
+(0x80000000) exit: tid=29004 pid=29004 exit_code=0
+(0x00000001) fork: parent tid=31941 pid=31941 -> child tid=29008 pid=29008 (cmd: postmaster)
+(0x00000080) sid change: tid=29008 pid=29008
+(0x80000000) exit: tid=29008 pid=29008 exit_code=0
