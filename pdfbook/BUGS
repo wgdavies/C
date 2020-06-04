@@ -1,0 +1,4 @@
+cc -Wall -g -O2    pdfbook.c   -o pdfbook
+warning: In function `make_tempdir':
+pdfbook.c:96: warning: the use of `tempnam' is dangerous, better use `mkstemp'
+
