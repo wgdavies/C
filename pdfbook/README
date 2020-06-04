@@ -1,0 +1,76 @@
+PDFBOOK
+=======
+
+Description
+-----------
+
+Rearrange pages in a PDF file into signatures and (optionally) rescale
+to fit 2 original pages on 1 physical one. Allows one to easily
+convert pdf documents to booklet format, e.g. transform from A4 paper
+to A5 pages on A4 paper, such that one can fold the pages and obtains
+a small booklet.
+
+
+Authors
+-------
+
+Original version by Tigran Aivazian, based on the algorithm from
+psutils/psbook.c, which was written by Angus J. C. Duggan 1991-1995.
+
+Modification and additions by:
+Jaap Eldering <eldering at a-eskwadraat.nl>
+Roman Buchert <roman.buchert at arcor.de>
+Pierre Francois <pf at romanliturgy.org>
+
+
+Copyright
+---------
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 2 as
+published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301, USA
+
+
+Installation
+------------
+
+On a *nix environment, installation should be as simple as running
+'make pdfbook' in the directory containing the pdfbook.c source.
+
+Runtime-depends on LaTeX and the pdfpages package and pdfinfo.
+
+
+Usage
+-----
+
+Running pdfbook without parameters produces a short help.
+
+For simply transforming an A4 document to print in A5 booklet format,
+use: 'pdfbook -2 <infile> <outfile>'
+
+Changelog
+---------
+
+ * 16-09-2009, Jaap Eldering, added Makefile and patch by Jeroen
+   Leeuwestein adding quoting of filenames in system commands.
+
+ * +/- 2007, modifications by Jaap Eldering, Roman Buchert, Pierre
+   Francois, adding support for autodetected and manual papersize
+   setting, reduction of pages for last book with signatures, and
+   debugging option.
+
+ * June 2005, modified by Jaap Eldering <eldering at a-eskwadraat.nl>,
+   added option to generate booklet by placing 2x A5 pages on A4 paper.
+
+ * Original version by Tigran Aivazian <tigran at aivazian.fsnet.co.uk>
+   based on the algorithm from psutils/psbook.c, which was written by
+   Angus J. C. Duggan 1991-1995.
