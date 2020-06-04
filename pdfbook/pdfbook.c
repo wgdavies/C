@@ -35,7 +35,11 @@
 
 #define TMP_INFILE_BASE  "input"
 #define TMP_OUTFILE_BASE "output"
-#define DEF_PAPERSIZE    "a4"
+/**
+ * Original default paper size set to 'a4':
+ * #define DEF_PAPERSIZE    "a4"
+**/
+#define DEF_PAPERSIZE    "letter"
 
 char *program;
 
